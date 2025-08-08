@@ -4,7 +4,15 @@ html {
   margin: 0;
   padding: 0;
 }
+#root,
+body,
+main {
+  height: 100vh;
+}
 
+body {
+  background-color: #999999;
+}
 h1 {
   /* equivalent to 32px */
   font-size: calc(32rem / 16);
